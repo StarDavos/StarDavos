@@ -2,10 +2,6 @@
   <img src="./assets/star-davos-banner.svg" width="100%" alt="Star Davos — Software, Security, AI, Automation" />
 </p>
 
-<p align="center">
-  <img src="./assets/star-davos-logo.svg" width="230" alt="Star Davos logo" />
-</p>
-
 <h1 align="center">Rocco Buttiglieri</h1>
 
 <p align="center">
