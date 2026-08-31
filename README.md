@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/star-davos-logo.png" width="230" alt="Star Davos lion logo" />
+  <img src="./assets/star-davos-logo.svg" width="230" alt="Star Davos logo" />
 </p>
 
 <h1 align="center">Rocco Buttiglieri</h1>
