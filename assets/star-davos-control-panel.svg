@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1420" viewBox="0 0 1600 1420">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03070D"/><stop offset=".52" stop-color="#07162A"/><stop offset="1" stop-color="#02060B"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1C32"/><stop offset="1" stop-color="#050D18"/></linearGradient>
+</defs>
+<rect width="1600" height="1420" fill="url(#bg)"/>
+<rect x="16" y="16" width="1568" height="1388" rx="28" fill="none" stroke="#1D334D" stroke-width="2"/>
+
+<rect x="55" y="48" width="1490" height="82" rx="16" fill="#050C16" stroke="#A44C16" stroke-width="2"/>
+<text x="85" y="82" fill="#FFB740" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800" letter-spacing="3">STAR DAVOS // SYSTEMS ONLINE</text>
+<text x="1510" y="82" fill="#5AC6FF" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="end" letter-spacing="2">BUILD / SECURE / AUTOMATE / IMPROVE</text>
+<text x="85" y="112" fill="#D8E5F5" font-family="Arial,Helvetica,sans-serif" font-size="19">Security-first engineering for practical AI, automation, and infrastructure.</text>
+
+<line x1="55" y1="172" x2="600" y2="172" stroke="#FF7417" stroke-width="2"/><line x1="1000" y1="172" x2="1545" y2="172" stroke="#FF7417" stroke-width="2"/>
+<text x="800" y="182" fill="#F8FAFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800" text-anchor="middle" letter-spacing="2">MISSION PROFILE</text>
+
+<rect x="55" y="208" width="730" height="272" rx="18" fill="url(#panel)" stroke="#A44C16" stroke-width="2"/>
+<text x="88" y="255" fill="#F8FAFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800">I BUILD SECURE SYSTEMS.</text>
+<text x="88" y="298" fill="#FF7417" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800">AUTOMATE THE REPETITIVE.</text>
+<text x="88" y="346" fill="#D8E5F5" font-family="Arial,Helvetica,sans-serif" font-size="21">Support Engineer working across security, AI-assisted tooling,</text>
+<text x="88" y="379" fill="#D8E5F5" font-family="Arial,Helvetica,sans-serif" font-size="21">Microsoft infrastructure, automation, and operational systems.</text>
+<text x="88" y="426" fill="#67C7FF" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600">Current objective: reduce manual work while reducing blast radius.</text>
+<text x="88" y="458" fill="#F8FAFF" font-family="Arial,Helvetica,sans-serif" font-size="19">Always learning. Always building. Always improving.</text>
+
+<rect x="815" y="208" width="730" height="272" rx="18" fill="#07111F" stroke="#245886" stroke-width="2"/>
+<text x="848" y="255" fill="#FFB740" font-family="Consolas,Menlo,monospace" font-size="24" font-weight="700">&gt; whoami</text>
+<text x="848" y="305" fill="#FF7417" font-family="Consolas,Menlo,monospace" font-size="19" font-weight="700">name:</text><text x="1000" y="305" fill="#EAF2FF" font-family="Consolas,Menlo,monospace" font-size="19">Rocco Buttiglieri</text>
+<text x="848" y="337" fill="#FF7417" font-family="Consolas,Menlo,monospace" font-size="19" font-weight="700">brand:</text><text x="1000" y="337" fill="#EAF2FF" font-family="Consolas,Menlo,monospace" font-size="19">Star Davos Software</text>
+<text x="848" y="369" fill="#FF7417" font-family="Consolas,Menlo,monospace" font-size="19" font-weight="700">role:</text><text x="1000" y="369" fill="#EAF2FF" font-family="Consolas,Menlo,monospace" font-size="19">Support Engineer</text>
+<text x="848" y="401" fill="#FF7417" font-family="Consolas,Menlo,monospace" font-size="19" font-weight="700">focus:</text><text x="1000" y="401" fill="#EAF2FF" font-family="Consolas,Menlo,monospace" font-size="19">Security / AI / Automation / Infrastructure</text>
+<text x="848" y="433" fill="#FF7417" font-family="Consolas,Menlo,monospace" font-size="19" font-weight="700">mission:</text><text x="1000" y="433" fill="#EAF2FF" font-family="Consolas,Menlo,monospace" font-size="19">Build secure systems. Automate intelligently.</text>
+<text x="848" y="465" fill="#FF7417" font-family="Consolas,Menlo,monospace" font-size="19" font-weight="700">status:</text><text x="1000" y="465" fill="#EAF2FF" font-family="Consolas,Menlo,monospace" font-size="19">Always building.</text>
+
+<line x1="55" y1="535" x2="600" y2="535" stroke="#FF7417" stroke-width="2"/><line x1="1000" y1="535" x2="1545" y2="535" stroke="#FF7417" stroke-width="2"/>
+<text x="800" y="545" fill="#F8FAFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800" text-anchor="middle" letter-spacing="2">CURRENT MISSIONS</text>
+
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="55" y="570" width="330" height="242" rx="18" fill="#071426" stroke="#FF7417" stroke-width="2"/><text x="75" y="602" fill="#FF7417" font-family="Consolas,Menlo,monospace" font-size="16" font-weight="700">SD-001</text><circle cx="220" cy="650" r="27" fill="none" stroke="#FF7417" stroke-width="4"/><text x="220" y="658" fill="#FF7417" font-size="22" font-weight="800" text-anchor="middle">SD</text><text x="220" y="714" fill="#F8FAFF" font-size="23" font-weight="800" text-anchor="middle">OPENAI SANDBOX</text><text x="220" y="748" fill="#D8E5F5" font-size="17" text-anchor="middle">Secure AI execution workspace</text><text x="220" y="778" fill="#FF7417" font-size="15" font-weight="600" text-anchor="middle">Isolation / authorization / verification</text><text x="220" y="802" fill="#9CEB81" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1">PRIVATE R&amp;D</text>
+<rect x="440" y="570" width="330" height="242" rx="18" fill="#071426" stroke="#33AFFF" stroke-width="2"/><text x="460" y="602" fill="#33AFFF" font-family="Consolas,Menlo,monospace" font-size="16" font-weight="700">SD-002</text><circle cx="605" cy="650" r="27" fill="none" stroke="#33AFFF" stroke-width="4"/><text x="605" y="658" fill="#33AFFF" font-size="22" font-weight="800" text-anchor="middle">SD</text><text x="605" y="714" fill="#F8FAFF" font-size="23" font-weight="800" text-anchor="middle">CODE ANALYZER</text><text x="605" y="748" fill="#D8E5F5" font-size="17" text-anchor="middle">Static analysis + sandbox execution</text><text x="605" y="778" fill="#33AFFF" font-size="15" font-weight="600" text-anchor="middle">PowerShell / Python / Bash</text><text x="605" y="802" fill="#9CEB81" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1">PRIVATE R&amp;D</text>
+<rect x="825" y="570" width="330" height="242" rx="18" fill="#071426" stroke="#FF7417" stroke-width="2"/><text x="845" y="602" fill="#FF7417" font-family="Consolas,Menlo,monospace" font-size="16" font-weight="700">SD-003</text><circle cx="990" cy="650" r="27" fill="none" stroke="#FF7417" stroke-width="4"/><text x="990" y="658" fill="#FF7417" font-size="22" font-weight="800" text-anchor="middle">SD</text><text x="990" y="714" fill="#F8FAFF" font-size="23" font-weight="800" text-anchor="middle">PROJECT ZERO</text><text x="990" y="748" fill="#D8E5F5" font-size="17" text-anchor="middle">Controlled automation experiments</text><text x="990" y="778" fill="#FF7417" font-size="15" font-weight="600" text-anchor="middle">Systems / data / AI agents</text><text x="990" y="802" fill="#9CEB81" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1">PRIVATE R&amp;D</text>
+<rect x="1210" y="570" width="330" height="242" rx="18" fill="#071426" stroke="#33AFFF" stroke-width="2"/><text x="1230" y="602" fill="#33AFFF" font-family="Consolas,Menlo,monospace" font-size="16" font-weight="700">SD-004</text><circle cx="1375" cy="650" r="27" fill="none" stroke="#33AFFF" stroke-width="4"/><text x="1375" y="658" fill="#33AFFF" font-size="22" font-weight="800" text-anchor="middle">SD</text><text x="1375" y="714" fill="#F8FAFF" font-size="23" font-weight="800" text-anchor="middle">COMPACT CODE APP</text><text x="1375" y="748" fill="#D8E5F5" font-size="17" text-anchor="middle">Cleaner developer code workflows</text><text x="1375" y="778" fill="#33AFFF" font-size="15" font-weight="600" text-anchor="middle">TypeScript / React / FastAPI</text><text x="1375" y="802" fill="#9CEB81" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1">PRIVATE R&amp;D</text>
+</g>
+
+<line x1="55" y1="865" x2="600" y2="865" stroke="#FF7417" stroke-width="2"/><line x1="1000" y1="865" x2="1545" y2="865" stroke="#FF7417" stroke-width="2"/>
+<text x="800" y="875" fill="#F8FAFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800" text-anchor="middle" letter-spacing="2">TECH ARSENAL</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#F8FAFF">
+<rect x="55" y="905" width="165" height="48" rx="13" fill="#07182B" stroke="#FFB740" stroke-width="2"/><circle cx="78" cy="929" r="5" fill="#FFB740"/><text x="96" y="936">PYTHON</text>
+<rect x="232" y="905" width="205" height="48" rx="13" fill="#07182B" stroke="#33AFFF" stroke-width="2"/><circle cx="255" cy="929" r="5" fill="#33AFFF"/><text x="273" y="936">POWERSHELL</text>
+<rect x="449" y="905" width="145" height="48" rx="13" fill="#07182B" stroke="#F8FAFF" stroke-width="2"/><circle cx="472" cy="929" r="5" fill="#F8FAFF"/><text x="490" y="936">BASH</text>
+<rect x="606" y="905" width="165" height="48" rx="13" fill="#07182B" stroke="#33AFFF" stroke-width="2"/><circle cx="629" cy="929" r="5" fill="#33AFFF"/><text x="647" y="936">DOCKER</text>
+<rect x="783" y="905" width="155" height="48" rx="13" fill="#07182B" stroke="#33AFFF" stroke-width="2"/><circle cx="806" cy="929" r="5" fill="#33AFFF"/><text x="824" y="936">AZURE</text>
+<rect x="950" y="905" width="155" height="48" rx="13" fill="#07182B" stroke="#FFB740" stroke-width="2"/><circle cx="973" cy="929" r="5" fill="#FFB740"/><text x="991" y="936">LINUX</text>
+<rect x="1117" y="905" width="125" height="48" rx="13" fill="#07182B" stroke="#FF7417" stroke-width="2"/><circle cx="1140" cy="929" r="5" fill="#FF7417"/><text x="1158" y="936">GIT</text>
+<rect x="1254" y="905" width="165" height="48" rx="13" fill="#07182B" stroke="#33AFFF" stroke-width="2"/><circle cx="1277" cy="929" r="5" fill="#33AFFF"/><text x="1295" y="936">SQLITE</text>
+<rect x="55" y="968" width="195" height="48" rx="13" fill="#07182B" stroke="#33AFFF" stroke-width="2"/><circle cx="78" cy="992" r="5" fill="#33AFFF"/><text x="96" y="999">TYPESCRIPT</text>
+<rect x="262" y="968" width="145" height="48" rx="13" fill="#07182B" stroke="#33AFFF" stroke-width="2"/><circle cx="285" cy="992" r="5" fill="#33AFFF"/><text x="303" y="999">REACT</text>
+<rect x="419" y="968" width="165" height="48" rx="13" fill="#07182B" stroke="#6DE2C4" stroke-width="2"/><circle cx="442" cy="992" r="5" fill="#6DE2C4"/><text x="460" y="999">FASTAPI</text>
+<rect x="596" y="968" width="155" height="48" rx="13" fill="#07182B" stroke="#FF7417" stroke-width="2"/><circle cx="619" cy="992" r="5" fill="#FF7417"/><text x="637" y="999">INTUNE</text>
+<rect x="763" y="968" width="230" height="48" rx="13" fill="#07182B" stroke="#FF7417" stroke-width="2"/><circle cx="786" cy="992" r="5" fill="#FF7417"/><text x="804" y="999">MICROSOFT 365</text>
+<rect x="1005" y="968" width="165" height="48" rx="13" fill="#07182B" stroke="#F8FAFF" stroke-width="2"/><circle cx="1028" cy="992" r="5" fill="#F8FAFF"/><text x="1046" y="999">GITHUB</text>
+<rect x="1182" y="968" width="205" height="48" rx="13" fill="#07182B" stroke="#FF7417" stroke-width="2"/><circle cx="1205" cy="992" r="5" fill="#FF7417"/><text x="1223" y="999">CLOUDFLARE</text>
+</g>
+
+<line x1="55" y1="1055" x2="600" y2="1055" stroke="#FF7417" stroke-width="2"/><line x1="1000" y1="1055" x2="1545" y2="1055" stroke="#FF7417" stroke-width="2"/>
+<text x="800" y="1065" fill="#F8FAFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="800" text-anchor="middle" letter-spacing="2">OPERATING PRINCIPLES</text>
+
+<rect x="55" y="1095" width="480" height="248" rx="18" fill="#071426" stroke="#1C3854" stroke-width="2"/><text x="83" y="1137" fill="#FF7417" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800">SECURITY DOCTRINE</text><line x1="83" y1="1151" x2="507" y2="1151" stroke="#FF7417"/>
+<rect x="560" y="1095" width="480" height="248" rx="18" fill="#071426" stroke="#1C3854" stroke-width="2"/><text x="588" y="1137" fill="#FFB740" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800">CORE PRINCIPLES</text><line x1="588" y1="1151" x2="1012" y2="1151" stroke="#FFB740"/>
+<rect x="1065" y="1095" width="480" height="248" rx="18" fill="#071426" stroke="#1C3854" stroke-width="2"/><text x="1093" y="1137" fill="#33AFFF" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800">CURRENT STATUS</text><line x1="1093" y1="1151" x2="1517" y2="1151" stroke="#33AFFF"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#EAF2FF">
+<text x="88" y="1192" fill="#FF7417">◆</text><text x="110" y="1192">Least privilege</text><text x="88" y="1224" fill="#FF7417">◆</text><text x="110" y="1224">Secure by design</text><text x="88" y="1256" fill="#FF7417">◆</text><text x="110" y="1256">Defense in depth</text><text x="88" y="1288" fill="#FF7417">◆</text><text x="110" y="1288">Sandbox by default</text><text x="88" y="1320" fill="#FF7417">◆</text><text x="110" y="1320">Verify before trust</text>
+<text x="593" y="1192" fill="#FFB740">◆</text><text x="615" y="1192">Eliminate manual repetition</text><text x="593" y="1224" fill="#FFB740">◆</text><text x="615" y="1224">Build for clarity and trust</text><text x="593" y="1256" fill="#FFB740">◆</text><text x="615" y="1256">Measure what matters</text><text x="593" y="1288" fill="#FFB740">◆</text><text x="615" y="1288">Iterate relentlessly</text><text x="593" y="1320" fill="#FFB740">◆</text><text x="615" y="1320">Ship useful systems</text>
+<text x="1098" y="1192">[+] Systems online</text><text x="1098" y="1229">[+] Building secure AI-assisted tooling</text><text x="1098" y="1266">[+] Expanding automation workflows</text><text x="1098" y="1303">[+] Testing the next useful idea</text><text x="1098" y="1340">[+] Reducing blast radius by design</text>
+</g>
+
+<rect x="55" y="1365" width="1490" height="38" rx="10" fill="#050C16" stroke="#A44C16" stroke-width="2"/>
+<text x="800" y="1391" fill="#FFB740" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="800" text-anchor="middle" letter-spacing="3">BUILD WITH DISCIPLINE.  AUTOMATE WITH INTENT.  SECURE BY DEFAULT.</text>
+</svg>
