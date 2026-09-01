@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/star-davos-banner.svg" width="100%" alt="Star Davos Software — Mission Control" />
+  <img src="./assets/star-davos-banner.jpg" width="100%" alt="Star Davos Software — Mission Control" />
 </p>
 
 <p align="center">
