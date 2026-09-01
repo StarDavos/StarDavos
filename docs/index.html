@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rocco Buttiglieri and Star Davos Software build security-minded AI tools, automation, developer utilities, and practical software systems.">
+  <meta name="theme-color" content="#06152b">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://raw.githubusercontent.com data:; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+  <title>Rocco Buttiglieri | Star Davos Software</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="starfield" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Star Davos home">
+      <img src="https://raw.githubusercontent.com/StarDavos/StarDavos/main/assets/star-davos-logo.svg" alt="Star Davos Software logo" width="52" height="52">
+      <span><strong>STAR DAVOS</strong><small>SOFTWARE</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#services">Capabilities</a><a href="#principles">Principles</a><a class="nav-cta" href="https://github.com/StarDavos" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="top" class="hero panel" data-scene="00">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">ROCCO BUTTIGLIERI · INDEPENDENT SOFTWARE BUILDER</p>
+        <h1>I build practical software where <em>AI, security, and automation</em> meet.</h1>
+        <p class="hero-lede">Star Davos Software turns messy technical problems into focused tools: privacy-first analyzers, ChatGPT integrations, developer utilities, secure prototypes, and automation experiments.</p>
+        <div class="hero-actions"><a class="button primary" href="#work">Explore the work</a><a class="button ghost" href="https://github.com/StarDavos" rel="noopener noreferrer">View GitHub</a></div>
+      </div>
+      <div class="mission-orbit" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="core"><span>BUILD</span><b>→</b><span>VERIFY</span><b>→</b><span>SHIP</span></div></div>
+      <div class="scroll-status" aria-hidden="true"><span>MISSION TRAJECTORY</span><div class="track"><i id="progress-bar"></i></div></div>
+    </section>
+    <section id="work" class="work-intro panel" data-scene="01">
+      <div class="section-kicker reveal">SELECTED WORK / 01</div>
+      <div class="split-head reveal"><h2>Software built around real constraints.</h2><p>No fake dashboards. No invented metrics. The strongest projects here are designed around actual security, privacy, reliability, and usability problems.</p></div>
+    </section>
+    <section class="project project-analyzer panel" data-scene="02">
+      <div class="project-copy reveal">
+        <p class="project-label">FLAGSHIP · LOCAL-FIRST SECURITY TOOLING</p><h2>Code Safety Analyzer</h2>
+        <p>A local-first analyzer for scripts, projects, and files before they are run or shared with an AI service. It treats submissions as inert data, separates code risk from AI-upload risk, and produces evidence-linked explanations instead of pretending static analysis is certainty.</p>
+        <ul class="proof-list"><li>PowerShell, Python, Bash, and Windows Batch/CMD analysis</li><li>Privacy scanning and redaction workflows</li><li>Cross-file reasoning with bounded file access</li><li>Evidence-based risk language and explicit uncertainty</li></ul>
+        <a class="text-link" href="https://github.com/StarDavos/Code-Analyzer-Tool" rel="noopener noreferrer">Private development repository →</a>
+      </div>
+      <div class="analyzer-visual reveal" aria-label="Illustration of a code safety analysis"><div class="visual-topbar"><span></span><span></span><span></span><b>ANALYSIS / LOCAL</b></div><div class="risk-row"><span>CODE RISK</span><strong>MODERATE</strong></div><div class="risk-row"><span>AI UPLOAD RISK</span><strong>HIGH</strong></div><div class="trace"><code>clients.csv</code><i>→</i><code>Get-Content</code><i>→</i><code>Invoke-RestMethod</code></div><div class="evidence"><span>CMD-004</span><span>FLOW-002</span><span>CORR-001</span></div><p>Review what leaves the machine before execution or upload.</p></div>
+    </section>
+    <section class="project project-compact panel" data-scene="03">
+      <div class="compact-demo reveal" aria-label="Compact Code Viewer illustration"><div class="compact-header"><strong>deploy.sh</strong><span>1,500 lines · copy verified</span></div><pre><code>#!/usr/bin/env bash
+set -euo pipefail
+
+# Complete source stays intact.
+# Copy stays locked until integrity metadata matches.
+
+validate_payload() {
+  local expected="$1"
+  local actual="$2"
+  [[ "$expected" == "$actual" ]]
+}
+
+# No execution path exists in the viewer.
+# Source is treated as inert text.
+...</code></pre><div class="compact-footer"><span>INTEGRITY MATCH</span><button type="button" disabled>Copy complete source</button></div></div>
+      <div class="project-copy reveal"><p class="project-label">CHATGPT / MCP · DEVELOPER UX</p><h2>Compact Code Viewer</h2><p>A ChatGPT MCP App designed for one specific annoyance: large generated code blocks swallowing the conversation. It keeps complete source in a bounded viewer and refuses to unlock copy when final integrity metadata does not match.</p><ul class="proof-list"><li>Rejects oversized input instead of silently truncating</li><li>Never executes submitted source</li><li>Docker hardening and adversarial test coverage</li><li>Cloudflare-hosted public release architecture</li></ul><a class="text-link" href="https://github.com/StarDavos/OpenAI-Compact-Output" rel="noopener noreferrer">View the public project →</a></div>
+    </section>
+    <section class="project project-zero panel" data-scene="04">
+      <div class="project-copy reveal"><p class="project-label">EXPERIMENT · AUTOMATION + BUSINESS SYSTEMS</p><h2>Project Zero</h2><p>An experiment in building automated revenue-generating assets from a tightly constrained starting point. The interesting part is not the $50 starting balance. It is the operating discipline: preserve capital, record decisions, keep human approval on consequential actions, and preserve failed experiments instead of rewriting history.</p><div class="zero-grid"><span><b>$50</b> initial capital</span><span><b>0</b> hidden funding</span><span><b>100%</b> decisions recorded</span></div><a class="text-link" href="https://github.com/StarDavos/Project-Zero" rel="noopener noreferrer">View project foundation →</a></div>
+      <div class="zero-visual reveal" aria-hidden="true"><div class="radar"></div><div class="signal signal-a">IDEA</div><div class="signal signal-b">TEST</div><div class="signal signal-c">LEARN</div><div class="signal signal-d">REPEAT</div></div>
+    </section>
+    <section id="services" class="capabilities panel" data-scene="05"><div class="section-kicker reveal">CAPABILITIES / 02</div><div class="split-head reveal"><h2>Useful work I can do for a business.</h2><p>The commercial angle is simple: solve a narrow expensive problem, keep the architecture understandable, and make the result maintainable after the demo.</p></div><div class="capability-rail"><article class="capability reveal"><span>01</span><h3>AI integrations</h3><p>ChatGPT apps, MCP tools, controlled AI-assisted workflows, and interfaces that make model output easier to use safely.</p></article><article class="capability reveal"><span>02</span><h3>Internal tools</h3><p>Purpose-built software for repetitive support, operations, security, or data-handling tasks that do not justify an oversized platform.</p></article><article class="capability reveal"><span>03</span><h3>Automation</h3><p>Workflow design that reduces manual steps while keeping approvals, logging, rollback, and failure modes visible.</p></article><article class="capability reveal"><span>04</span><h3>Security-minded prototypes</h3><p>Early products with sensible trust boundaries, least privilege, secret handling, input controls, and testable release gates from the beginning.</p></article></div></section>
+    <section id="principles" class="principles panel" data-scene="06"><div class="principle-statement reveal"><p class="section-kicker">HOW I BUILD / 03</p><h2>Fast is useful. Fast <em>without evidence</em> is just guessing.</h2></div><div class="principle-list reveal"><div><span>01</span><p>Prefer the smallest architecture that safely solves the current problem.</p></div><div><span>02</span><p>Treat code that looks correct differently from behavior that has been tested.</p></div><div><span>03</span><p>Make security boundaries, privacy assumptions, and failure modes explicit.</p></div><div><span>04</span><p>Build for actual human use, then change what feels wrong.</p></div></div></section>
+    <section class="finale panel" data-scene="07"><div class="finale-orbit" aria-hidden="true"></div><div class="finale-copy reveal"><p class="eyebrow">STAR DAVOS SOFTWARE · NEW JERSEY / REMOTE</p><h2>Have a weird technical problem that should probably be software?</h2><p>That is the kind of conversation I want.</p><div class="hero-actions"><a class="button primary" href="https://github.com/StarDavos" rel="noopener noreferrer">Start with GitHub</a><a class="button ghost" href="#top">Back to launch</a></div></div></section>
+  </main>
+  <footer><p>© <span id="year">2026</span> Rocco Buttiglieri · Star Davos Software</p><p>Built without analytics, trackers, or third-party JavaScript.</p></footer>
+</body>
+</html>
