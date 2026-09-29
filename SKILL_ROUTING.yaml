@@ -1,0 +1,56 @@
+version: 1
+updated: "2026-09-29"
+project: "StarDavos"
+default_router: "mission-control-brief"
+policy:
+  project_rules_override: true
+  skills_expand_authority: false
+  nontrivial_work_requires_routing_check: true
+  unavailable_skill_fallback: "manual-equivalent"
+  record_route_in_handoff: true
+routes:
+  - id: "portfolio-brief"
+    when: "the user asks what changed across projects, what needs attention, overnight status, blockers, risks, or a prioritized owner brief"
+    required:
+      - skill: "mission-control-brief"
+  - id: "capability-portfolio"
+    when: "reviewing which Skills, plugins, connectors, MCP servers, agent tools, or automations to add, retain, restrict, compose, or retire"
+    required:
+      - skill: "capability-curator"
+  - id: "external-capability"
+    when: "a new Skill, plugin, connector, MCP server, or agent tool is proposed"
+    required:
+      - skill: "capability-airlock"
+  - id: "capability-promotion"
+    when: "an external capability is approved for use or its reviewed bytes change"
+    required:
+      - skill: "agent-supply-chain"
+  - id: "repository-map"
+    when: "repository-wide understanding is requested or this portfolio repo evolves into a larger codebase"
+    required:
+      - skill: "codebase-knowledge"
+  - id: "implementation-context"
+    when: "before a non-trivial code or automation change in this repository"
+    required:
+      - skill: "context-map"
+  - id: "security-sensitive"
+    when: "work changes credentials, shared automation, connectors, permissions, CI/CD, external side effects, or deployment"
+    required:
+      - skill: "development-guardrails"
+      - skill: "developmentsecurity"
+gates:
+  capability-promotion:
+    when: "a capability is about to become shared workspace infrastructure"
+    required:
+      - skill: "capability-airlock"
+      - skill: "agent-supply-chain"
+    human_approval_required: true
+  release:
+    when: "production release"
+    required:
+      - skill: "developmentsecurity"
+        mode: "FULL"
+forbidden_without_explicit_human_authorization:
+  - "install or connect a new external capability"
+  - "change shared permissions"
+  - "merge or deploy"
